@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html ng-app="GoogleApp">
+    <head>
+        <title>Google</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="Resources/css/home.css">
+        <script type="text/javascript" src="node_modules/angular/angular.min.js"></script>
+        <script type="text/javascript" src="node_modules/angular-route/angular-route.min.js"></script>
+        <script type="text/javascript" src="node_modules/angular-ui-router/release/angular-ui-router.min.js"></script>
+        <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+        <script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    </head>
+    <body ng-cloak>
+        <div ui-view=""></div>
+        <script type="text/javascript" src="App/appModule.js"></script>
+        <script type="text/javascript" src="App/routeModule.js"></script>
+        <script type="text/javascript" src="App/Home/homeController.js"></script>
+    </body>
+</html>

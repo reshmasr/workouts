@@ -1,0 +1,67 @@
+/* 
+    Created on : 2 Sep, 2016, 12:42:33 PM
+    Author     : Reshma S Raveendran
+*/
+$primaryFont:Arial, Helvetica, sans-serif;
+$height:100%;
+body{
+    font-family: $primaryFont;
+    height: $height;
+    .menu {
+        width: 100%;
+        font-size: 13px;
+        text-align: right;
+        ul {
+            list-style: none;
+
+            li {
+                padding: 15px;
+                display: inline-block;
+                a {
+                    text-decoration: none;
+                    font-size: 16px;
+                    color: #000;
+                    &:hover {
+                        color: #444;
+                    }
+                }
+            }
+        }
+    }
+    .search-wrapper{
+        @extend .menu;
+        font-size: 16px;
+        text-align: center;
+        padding-top: $height/10;
+    }
+}
+
+@mixin fontSpec($size, $color) {
+    font-size: $size;
+    color: $color;
+    font-weight: bold;
+}
+.head-wrapper {
+    span{
+        &:first-child{
+            @include fontSpec(100px,#4285F4);
+        }
+        &:nth-child(2){
+            @include fontSpec(50px,#EA4335);
+        }
+        &:nth-child(3){
+            @include fontSpec(50px,#FBBC05);
+        }
+        &:nth-child(4){
+            @include fontSpec(50px,#4285F4);
+        }
+        &:nth-child(5){
+            @include fontSpec(50px,#34A853);
+        }
+        &:nth-child(6){
+            @include fontSpec(50px,#EA4335);
+        }
+    }
+}
+
+

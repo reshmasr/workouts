@@ -1,0 +1,65 @@
+/* 
+    Created on : 2 Sep, 2016, 12:42:33 PM
+    Author     : Reshma S Raveendran
+*/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+}
+body .menu, body .search-wrapper {
+  width: 100%;
+  font-size: 13px;
+  text-align: right;
+}
+body .menu ul, body .search-wrapper ul {
+  list-style: none;
+}
+body .menu ul li, body .search-wrapper ul li {
+  padding: 15px;
+  display: inline-block;
+}
+body .menu ul li a, body .search-wrapper ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #000;
+}
+body .menu ul li a:hover, body .search-wrapper ul li a:hover {
+  color: #444;
+}
+body .search-wrapper {
+  font-size: 16px;
+  text-align: center;
+  padding-top: 10%;
+}
+
+.head-wrapper span:first-child {
+  font-size: 100px;
+  color: #4285F4;
+  font-weight: bold;
+}
+.head-wrapper span:nth-child(2) {
+  font-size: 50px;
+  color: #EA4335;
+  font-weight: bold;
+}
+.head-wrapper span:nth-child(3) {
+  font-size: 50px;
+  color: #FBBC05;
+  font-weight: bold;
+}
+.head-wrapper span:nth-child(4) {
+  font-size: 50px;
+  color: #4285F4;
+  font-weight: bold;
+}
+.head-wrapper span:nth-child(5) {
+  font-size: 50px;
+  color: #34A853;
+  font-weight: bold;
+}
+.head-wrapper span:nth-child(6) {
+  font-size: 50px;
+  color: #EA4335;
+  font-weight: bold;
+  transform: rotate(-45);
+}
